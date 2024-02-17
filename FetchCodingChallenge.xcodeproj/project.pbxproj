@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D318ED2A2B7FFA7600E1A59C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318ED292B7FFA7600E1A59C /* DetailView.swift */; };
 		D37D45992B7FBF7E0009EC46 /* FetchCodingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D45982B7FBF7E0009EC46 /* FetchCodingChallengeApp.swift */; };
 		D37D459B2B7FBF7E0009EC46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D459A2B7FBF7E0009EC46 /* ContentView.swift */; };
 		D37D459D2B7FBF800009EC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37D459C2B7FBF800009EC46 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		D37D45AA2B7FBF800009EC46 /* FetchCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D45A92B7FBF800009EC46 /* FetchCodingChallengeTests.swift */; };
 		D37D45B42B7FBF800009EC46 /* FetchCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D45B32B7FBF800009EC46 /* FetchCodingChallengeUITests.swift */; };
 		D37D45B62B7FBF800009EC46 /* FetchCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D45B52B7FBF800009EC46 /* FetchCodingChallengeUITestsLaunchTests.swift */; };
+		D37D45C32B7FC6850009EC46 /* Apidesserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D45C22B7FC6850009EC46 /* Apidesserts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D318ED292B7FFA7600E1A59C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D37D45952B7FBF7E0009EC46 /* FetchCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37D45982B7FBF7E0009EC46 /* FetchCodingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCodingChallengeApp.swift; sourceTree = "<group>"; };
 		D37D459A2B7FBF7E0009EC46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		D37D45AF2B7FBF800009EC46 /* FetchCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37D45B32B7FBF800009EC46 /* FetchCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		D37D45B52B7FBF800009EC46 /* FetchCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D37D45C22B7FC6850009EC46 /* Apidesserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apidesserts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				D37D45982B7FBF7E0009EC46 /* FetchCodingChallengeApp.swift */,
 				D37D459A2B7FBF7E0009EC46 /* ContentView.swift */,
+				D318ED292B7FFA7600E1A59C /* DetailView.swift */,
+				D37D45C22B7FC6850009EC46 /* Apidesserts.swift */,
 				D37D459C2B7FBF800009EC46 /* Assets.xcassets */,
 				D37D459E2B7FBF800009EC46 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37D45C32B7FC6850009EC46 /* Apidesserts.swift in Sources */,
+				D318ED2A2B7FFA7600E1A59C /* DetailView.swift in Sources */,
 				D37D459B2B7FBF7E0009EC46 /* ContentView.swift in Sources */,
 				D37D45992B7FBF7E0009EC46 /* FetchCodingChallengeApp.swift in Sources */,
 			);
@@ -424,11 +432,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchCodingChallenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Meal";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +460,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FetchCodingChallenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Meal";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
